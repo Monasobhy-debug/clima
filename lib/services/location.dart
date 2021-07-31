@@ -9,8 +9,6 @@ class Location {
           desiredAccuracy: LocationAccuracy.medium);
       latitude = position.latitude;
       longitude = position.longitude;
-    } catch (e) {
-      print(e);
-    }
+    } catch (e) {}
   }
 }
